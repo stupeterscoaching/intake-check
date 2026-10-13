@@ -1,0 +1,28 @@
+# The page
+
+Written for someone acting on it in the next hour, probably on a phone.
+
+## Order
+
+1. **One line of status.** How many flags, how many unverifiable, how many
+   document problems. Nothing else.
+2. **Flags**, most material first. ?? Materiality order needs a receiver's view;
+   until then, order by field priority from `01-claims/references/claim-rules.md`.
+3. **Could not be checked** — claim, and the document that would settle it.
+4. **Document problems** — drafts, misfiled documents, illegible sources.
+
+## Each flag
+
+Four parts, per `../../shared/output-shape.md`. Heading is the field name.
+
+## Length
+
+A flag is three or four sentences. If it needs more, the extra is probably
+reasoning, and reasoning is what this system does not do.
+
+## When there is nothing
+
+> No discrepancies found. All 10 fields checked against the documents on file.
+
+One line. No summary of the process, no reassurance, no padding. An empty result
+is a result and it should look like one.
