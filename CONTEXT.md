@@ -12,7 +12,8 @@ Intake notes and client documents in, a list of facts that disagree out.
 | Decide which differences are real | `stages/04-filter/CONTEXT.md` | Survivors, and what was discarded |
 | Write the page admin reads | `stages/05-render/CONTEXT.md` | The flag list |
 
-Stages run in order. Each reads the previous stage's `output/`. A human reviews
+Stages run in order. Each reads the previous stage's artifact from the
+**client's** `output/` folder and writes its own there. A human reviews
 and may edit any output before the next stage runs.
 
 ## Shared resources
@@ -25,5 +26,7 @@ and may edit any output before the next stage runs.
 
 ## Entry
 
-Start at stage 01 with a client folder containing intake notes, an intake form,
-and a `docs/` folder. `fixtures/01-okonkwo-dense/` is the worked example.
+Start at stage 01 with a path to a client folder containing `intake-notes.md`,
+`intake-form.md` and `docs/`. Outputs are written to `<client>/output/`.
+
+`fixtures/01-okonkwo-dense/` is the worked example.

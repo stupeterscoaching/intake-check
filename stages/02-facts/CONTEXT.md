@@ -27,7 +27,7 @@ you look for and what you find. The comparison happens in stage 03.
    present, but not governing.
 6. Mark illegible values as illegible, quoting what the source shows.
 7. Run the audit. Revise before saving.
-8. Save both artifacts to `output/`.
+8. Save both artifacts to `<client>/output/`.
 
 ## Checkpoints
 
@@ -49,5 +49,5 @@ you look for and what you find. The comparison happens in stage 03.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Inventory | `output/[client-slug]-documents.md` | Table: file, type, date, whose, classification |
-| Facts | `output/[client-slug]-facts.md` | Table: field, value, citation, authority |
+| Inventory | `<client>/output/02-documents.md` | Table: file, type, date, whose, classification |
+| Facts | `<client>/output/02-facts.md` | Table: field, value, citation, authority |

@@ -6,7 +6,7 @@ Decide which differences are real. Record why each discard was discarded.
 
 | Source | File | Scope | Why |
 |---|---|---|---|
-| Stage 03 | `../03-compare/output/[client-slug]-differences.md` | Full file | Every difference found |
+| Stage 03 | `<client>/output/03-differences.md` | Full file | Every difference found |
 | Reference | `references/noise-rules.md` | Full file | Approximation, equivalence, and what is not a discrepancy |
 
 ## Process
@@ -38,4 +38,4 @@ Decide which differences are real. Record why each discard was discarded.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Flags | `output/[client-slug]-flags.md` | Two tables: kept, and discarded with reasons |
+| Flags | `<client>/output/04-flags.md` | Two tables: kept, and discarded with reasons |

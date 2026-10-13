@@ -26,7 +26,7 @@ gets silently corrected before anyone sees it disagreed.
    source actually says.
 6. **[Checkpoint]** Present the claim list.
 7. Run the audit. Revise before saving.
-8. Save to `output/`.
+8. Save to `<client>/output/01-claims.md`.
 
 ## Checkpoints
 
@@ -48,4 +48,4 @@ gets silently corrected before anyone sees it disagreed.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Claims | `output/[client-slug]-claims.md` | Table: field, claim, source, confidence |
+| Claims | `<client>/output/01-claims.md` | Table: field, claim, source, confidence |

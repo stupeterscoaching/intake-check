@@ -6,8 +6,8 @@ Write the page admin reads. No new facts, no conclusions.
 
 | Source | File | Scope | Why |
 |---|---|---|---|
-| Stage 04 | `../04-filter/output/[client-slug]-flags.md` | Kept list, and the unverifiable list | What goes on the page |
-| Stage 02 | `../02-facts/output/[client-slug]-documents.md` | Non-authoritative and misfiled rows | Document problems are reported too |
+| Stage 04 | `<client>/output/04-flags.md` | Kept list, and the unverifiable list | What goes on the page |
+| Stage 02 | `<client>/output/02-documents.md` | Non-authoritative and misfiled rows | Document problems are reported too |
 | Reference | `../../shared/output-shape.md` | Full file | The four-part flag format and the never-answer rule |
 | Reference | `references/page-format.md` | Full file | Order, headings, length |
 
@@ -37,4 +37,4 @@ Write the page admin reads. No new facts, no conclusions.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Pre-consult flags | `output/[client-slug]-pre-consult-flags.md` | The page admin works from |
+| Pre-consult flags | `<client>/output/05-pre-consult-flags.md` | The page admin works from |

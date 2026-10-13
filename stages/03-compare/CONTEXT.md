@@ -6,9 +6,9 @@ Put the claims next to the facts. List every difference. Filter nothing.
 
 | Source | File | Scope | Why |
 |---|---|---|---|
-| Stage 01 | `../01-claims/output/[client-slug]-claims.md` | Full file | What the client said |
-| Stage 02 | `../02-facts/output/[client-slug]-facts.md` | Full file | What the documents say |
-| Stage 02 | `../02-facts/output/[client-slug]-documents.md` | Full file | Which documents govern |
+| Stage 01 | `<client>/output/01-claims.md` | Full file | What the client said |
+| Stage 02 | `<client>/output/02-facts.md` | Full file | What the documents say |
+| Stage 02 | `<client>/output/02-documents.md` | Full file | Which documents govern |
 | Reference | `references/comparison-rules.md` | Full file | How claims and facts are matched |
 
 ## Process
@@ -38,4 +38,4 @@ Put the claims next to the facts. List every difference. Filter nothing.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Differences | `output/[client-slug]-differences.md` | Table: field, claim, fact, status, sources |
+| Differences | `<client>/output/03-differences.md` | Table: field, claim, fact, status, sources |
