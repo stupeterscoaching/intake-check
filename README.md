@@ -44,13 +44,10 @@ Then: `run fixtures/okonkwo-dale-2026-09`
 
 Five fictional test fixtures are in `fixtures/`, each a different shape:
 
-| Folder | What it tests |
-|---|---|
-| `okonkwo-dale-2026-09` | Recall — five real discrepancies |
-| `whitfield-marguerite-2026-10` | **Silence** — does it invent flags when there are none |
-| `arteaga-tomas-2026-10` | Absence is not disagreement |
-| `benoit-nadine-2026-10` | **False positives** — three near-misses, one real |
-| `sandhu-harpreet-2026-10` | Document validity — poor scan, unsigned draft, misfiled file |
+Five fictional client files, each a different shape. **What each one tests is
+deliberately not written down inside `fixtures/`** — the folder has to be
+handable to a person or an agent without telling them what to find. The mapping
+lives in `fixture-keys/README.md`.
 
 Expected results are in `fixture-keys/`, kept in a separate tree so a fixture can
 be handed over without leaking what it should find. **Stages never read them.**
