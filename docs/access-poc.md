@@ -106,9 +106,30 @@ workspace, not just from the keys.** For a demo this is fine.
 
 ### EdubaWare
 
+Scored from public research and a read-only tour of the logged-in app, 2026-10-13.
+**Not yet tested end to end.** That needs an upload and an invite, done by Stu in his
+personal org with fictional fixtures. Full write-up: `Lyceum/edubaware/README.md`.
+
 | | |
 |---|---|
-| | ?? Not yet tested |
+| Sees structure | ✅ A workbench shows a real folder tree with `CLAUDE.md` at the root |
+| Reads contents | ✅ Markdown renders. The agent reads files, and each message lists the files it touched. |
+| Account needed | **An Eduba login.** ?? Whether anyone outside the Clief Notes community can get in is unknown. **Possible showstopper for a legal-admin receiver.** |
+| Install needed | None for the in-app chat. Browser only. |
+| How they point at it | Log in and open the org's workbench. They don't point their own AI at it. |
+| Read-only sharing | ❌ **No read-only role.** An Operator can prompt an agent that edits files. |
+| Sharing model | Explicit email invite to a named person, but **at org level only**. No per-workspace sharing. Chats are visible to the whole org. |
+| Setup cost | Low for the in-app chat, once the person is in. |
+
+**The route this PoC is actually comparing is not shown.** GitHub and Drive let a user
+query the folder from *their own* AI session. EdubaWare's equivalent is an MCP
+connector. It is set up by hand per org (an org-ID URL plus a client ID from Eduba),
+it doesn't appear anywhere in the app, and the tools shown manage templates. ?? Whether
+any tool reads workbench files is unknown.
+
+**And the Terms rule it out for real client files.** Uploads are warranted
+non-confidential, Eduba gets a perpetual licence, content is hosted in the US, and
+liability is capped at $0 on a free alpha. Fictional fixtures only.
 
 ## The test
 
@@ -130,4 +151,14 @@ repositories; legal admin has neither and will not acquire them. Drive needs
 nothing — it is already open on their second monitor.
 
 **"Which store fits" turned out to be a question about the receiver, not the
-technology.** The prediction held. ?? EdubaWare still to test.
+technology.** The prediction held.
+
+EdubaWare is a different kind of answer. It doesn't hand the folder to the user's own
+AI. It hosts the AI next to the folder and lets people talk to it in a shared chat.
+That brings real advantages, like a visible trail of every file the agent touched and
+versioned templates. It also brings costs the other two don't have: an account the
+receiver may not be able to get, no read-only role, every question visible to the
+whole org, and Terms that exclude confidential material.
+
+For a law firm's legal admin: **Drive**. For showing a method to collaborators who
+are already in the community: EdubaWare, from a personal org, with stand-in data.
