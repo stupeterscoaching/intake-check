@@ -34,7 +34,24 @@ three stacks. Fill in as each is tested.
 Notes: answered from structure rather than reading everything. Respected the
 `fixture-keys/` boundary without being told.
 
-### Google Drive
+### Three different Drive mechanisms — do not confuse them
+
+They behave differently and only one of them is what a receiver would use.
+
+| Mechanism | How it reaches Drive | Needs | Status |
+|---|---|---|---|
+| **Drive connector** | Authenticates as the user, searches their own Drive and Shared with me | Connector enabled in the session | **Untested. This is the one that matters.** |
+| **Browser pane** | Opens drive.google.com as a web page and reads the rendered UI | That browser signed in to Google | Tested 2026-10-13. **Failed** — private folder redirected to sign-in. |
+| **Fetch a public link** | HTTP GET on a shared URL | Folder set to anyone-with-link | Not tested. Rejected: a firm will not link-share client folders. |
+
+The browser-pane failure is not a finding about Drive. It is a finding about
+browsers: a private folder needs an authenticated session, and a chat agent
+cannot and should not sign in on the user's behalf.
+
+A legal admin would never browse to the folder. They would have the connector
+and ask a question. **Test that.**
+
+### Google Drive — connector
 
 | | |
 |---|---|
