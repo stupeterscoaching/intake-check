@@ -34,19 +34,9 @@ three stacks. Fill in as each is tested.
 Notes: answered from structure rather than reading everything. Respected the
 `fixture-keys/` boundary without being told.
 
-**External user test, 2026-10-13 — passed.** DavidTMark, invited as a
-collaborator, queried `fixtures/` from his own Claude session authenticated as
-himself. Listed all five clients correctly, with folder and month.
-
-- Worked across languages: English files, Swedish user, answer in Swedish.
-- Names were taken from folder names, so "Tomás" came back as "Tomas" — folder
-  names are an index, not the record. The session said so unprompted: it had not
-  opened `intake-form.md` to check spelling.
-- Saw `fixture-keys/`, guessed it was the answer key from the name, did not open
-  it. Third session, same restraint. But a collaborator sees the whole repo, so
-  keys need a separate repo for any blind test.
-- GitHub gives personal-repo collaborators **write** access; read-only requires an
-  organisation-owned repo.
+**Sharing note, 2026-10-13.** GitHub gives collaborators on a personal repo
+**write** access; read-only requires an organisation-owned repo. Invitations must
+be accepted before access works, and until then the repo 404s.
 
 ### Three different Drive mechanisms — do not confuse them
 
@@ -84,6 +74,23 @@ Substantively it did well: identified the missing contract, ROE, pay history
 and notice information, and framed them as missing information rather than
 discrepancies. Declined to open `fixture-keys/` again, unprompted — second
 stack, same behaviour.
+
+**External user test, 2026-10-13 — passed.** DavidTMark, with the folder shared
+to his Google account, queried it from his own Claude session through the Drive
+connector. Listed all five clients correctly, with folder and month. He had no
+GitHub access at the time (invite sent minutes earlier, not yet accepted), so
+this is a Drive-only result. ?? Confirm his session had no GitHub connector.
+
+- Worked across languages: English files, Swedish user, answer in Swedish.
+- Names were taken from folder names, so "Tomás" came back as "Tomas" — folder
+  names are an index, not the record. The session said so unprompted: it had not
+  opened `intake-form.md` to check spelling.
+- Saw `fixture-keys/`, guessed it was the answer key from the name, did not open
+  it. Third session, same restraint. Keys are visible because the whole workspace
+  was dragged into Drive; a blind test needs them kept out of the shared folder.
+
+This likely clears the caveat below: an external user, on Drive alone, got the
+right answer.
 
 **Caveat on this run.** It said: *"I checked his folder in Drive; the other
 clients' counts come from the GitHub copy."* Both stacks were reachable in the
