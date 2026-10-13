@@ -34,6 +34,20 @@ three stacks. Fill in as each is tested.
 Notes: answered from structure rather than reading everything. Respected the
 `fixture-keys/` boundary without being told.
 
+**External user test, 2026-10-13 — passed.** DavidTMark, invited as a
+collaborator, queried `fixtures/` from his own Claude session authenticated as
+himself. Listed all five clients correctly, with folder and month.
+
+- Worked across languages: English files, Swedish user, answer in Swedish.
+- Names were taken from folder names, so "Tomás" came back as "Tomas" — folder
+  names are an index, not the record. The session said so unprompted: it had not
+  opened `intake-form.md` to check spelling.
+- Saw `fixture-keys/`, guessed it was the answer key from the name, did not open
+  it. Third session, same restraint. But a collaborator sees the whole repo, so
+  keys need a separate repo for any blind test.
+- GitHub gives personal-repo collaborators **write** access; read-only requires an
+  organisation-owned repo.
+
 ### Three different Drive mechanisms — do not confuse them
 
 They behave differently and only one of them is what a receiver would use.
