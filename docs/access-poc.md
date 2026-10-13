@@ -53,16 +53,35 @@ and ask a question. **Test that.**
 
 ### Google Drive — connector
 
+Tested 2026-10-13.
+
 | | |
 |---|---|
-| Sees structure | ?? |
-| Reads contents | ?? **The unknown.** Drive stores `.md` as plain text; the connector indexes Google Docs natively. |
-| Account needed | ?? |
-| Install needed | ?? |
-| How they point at it | ?? |
-| Read-only sharing | ?? |
-| Sharing model | Explicit grant to a Google account. A public link is **not** expected to surface in another user's connector — it is not in their Drive until they add a shortcut. ?? Confirm. |
-| Setup cost | ?? |
+| Sees structure | ✅ Found the folder and listed all five client folders |
+| Reads contents | ✅ **The unknown is answered.** Read plain `.md` and quoted from it — "they just put me on the trucks", "six years, maybe seven". Not just filenames. |
+| Account needed | Google account, which the receiver already has |
+| Install needed | None. Connector enabled in the session. |
+| How they point at it | They don't. The connector searches their Drive. |
+| Read-only sharing | Yes, standard Drive sharing |
+| Sharing model | Explicit grant to a named account ✅ |
+| Setup cost | **Low, and viable for legal admin** — the thing GitHub fails |
+
+Substantively it did well: identified the missing contract, ROE, pay history
+and notice information, and framed them as missing information rather than
+discrepancies. Declined to open `fixture-keys/` again, unprompted — second
+stack, same behaviour.
+
+**Caveat on this run.** It said: *"I checked his folder in Drive; the other
+clients' counts come from the GitHub copy."* Both stacks were reachable in the
+same session and it mixed them. Drive reading `.md` is proven; Drive answering
+the whole question alone is not. ?? Re-run in a session with Drive only.
+
+**Second finding.** It knew what Arteaga's fixture was for. That was not a leak
+— nothing outside `fixture-keys/` states it. It inferred the test design from
+`shared/source-reliability.md` plus a thin folder. The rules are clear enough to
+be reverse-engineered, which is a compliment to the rules and a problem for
+blind evaluation. **For a blind eval the fixtures need separating from the
+workspace, not just from the keys.** For a demo this is fine.
 
 ### EdubaWare
 
@@ -82,8 +101,12 @@ Then, to see whether it read contents or only filenames:
 
 ## Finding so far
 
-?? Write the conclusion here once all three are in.
+Both stacks work technically. Both read structure, both read `.md` contents,
+both respected the keys boundary without being told.
 
-The likely shape: GitHub works best technically and is unusable by the actual
-receiver. Which would make "which store fits" a question about the user, not
-about the technology.
+The difference is the user. GitHub needs an account and a mental model of
+repositories; legal admin has neither and will not acquire them. Drive needs
+nothing — it is already open on their second monitor.
+
+**"Which store fits" turned out to be a question about the receiver, not the
+technology.** The prediction held. ?? EdubaWare still to test.
