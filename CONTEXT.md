@@ -29,4 +29,4 @@ and may edit any output before the next stage runs.
 Start at stage 01 with a path to a client folder containing `intake-notes.md`,
 `intake-form.md` and `docs/`. Outputs are written to `<client>/output/`.
 
-`fixtures/01-okonkwo-dense/` is the worked example.
+`fixtures/okonkwo-dale-2026-09/` is the worked example.

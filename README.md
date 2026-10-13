@@ -40,17 +40,17 @@ That is the point of the whole thing, not a caveat on it. See
 cd intake-check && claude
 ```
 
-Then: `run fixtures/01-okonkwo-dense`
+Then: `run fixtures/okonkwo-dale-2026-09`
 
 Five fictional test fixtures are in `fixtures/`, each a different shape:
 
-| Fixture | What it tests |
+| Folder | What it tests |
 |---|---|
-| `01-okonkwo-dense` | Recall — five real discrepancies |
-| `02-whitfield-clean` | **Silence** — does it invent flags when there are none |
-| `03-arteaga-sparse` | Absence is not disagreement |
-| `04-benoit-noise` | **False positives** — three near-misses, one real |
-| `05-sandhu-messy` | Document validity — poor scan, unsigned draft, misfiled file |
+| `okonkwo-dale-2026-09` | Recall — five real discrepancies |
+| `whitfield-marguerite-2026-10` | **Silence** — does it invent flags when there are none |
+| `arteaga-tomas-2026-10` | Absence is not disagreement |
+| `benoit-nadine-2026-10` | **False positives** — three near-misses, one real |
+| `sandhu-harpreet-2026-10` | Document validity — poor scan, unsigned draft, misfiled file |
 
 Expected results are in `fixture-keys/`, kept in a separate tree so a fixture can
 be handed over without leaking what it should find. **Stages never read them.**

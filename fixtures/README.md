@@ -8,13 +8,17 @@ Hand any one of these folders to a pipeline. **Answer keys live in a separate
 tree** at `../fixture-keys/` so a fixture can be handed over without leaking
 what it should find.
 
-| Fixture | Shape | What it tests |
-|---|---|---|
-| `01-okonkwo-dense` | Well documented, five real discrepancies | Recall. Does it find them all? |
-| `02-whitfield-clean` | Well documented, nothing wrong | **Silence.** Does it invent flags when there are none? |
-| `03-arteaga-sparse` | Barely any documents | Absence is not disagreement. Does it say "cannot be verified" rather than inventing a conflict? |
-| `04-benoit-noise` | Three near-misses, one real discrepancy | **False positives.** Can it separate signal from approximation? |
-| `05-sandhu-messy` | Poor scan, unsigned draft, misfiled document | Document validity. Does it know a draft is not an agreement? |
+| Folder | Client | Shape | What it tests |
+|---|---|---|---|
+| `okonkwo-dale-2026-09` | Dale Okonkwo | Well documented, five real discrepancies | Recall. Does it find them all? |
+| `whitfield-marguerite-2026-10` | Marguerite Whitfield | Well documented, nothing wrong | **Silence.** Does it invent flags when there are none? |
+| `arteaga-tomas-2026-10` | Tomás Arteaga | Barely any documents | Absence is not disagreement. Does it say "cannot be verified" rather than inventing a conflict? |
+| `benoit-nadine-2026-10` | Nadine Benoit | Three near-misses, one real discrepancy | **False positives.** Can it separate signal from approximation? |
+| `sandhu-harpreet-2026-10` | Harpreet Sandhu | Poor scan, unsigned draft, misfiled document | Document validity. Does it know a draft is not an agreement? |
+
+Folders are named the way real client folders would be, deliberately. The old
+names said which one was clean and which was messy, which gives the answer away
+to anyone reading the directory — including anyone you are showing it to.
 
 ## Why these five
 
