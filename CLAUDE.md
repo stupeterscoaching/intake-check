@@ -35,7 +35,7 @@ architecture: numbered stages run in order, each reads the previous stage's
 ## Triggers
 
 - **`setup`** — run `setup/questionnaire.md`, replace placeholders, confirm none remain.
-- **`status`** — scan `stages/*/output/` and show which stages have run.
+- **`status`** — for each client folder, list `<client>/output/` and show which stages have run. A client's stage is the first stage whose output file is missing.
 - **`run <path>`** — start at stage 01 against the client folder at that path.
 
 ## State is the files
