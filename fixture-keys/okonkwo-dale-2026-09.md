@@ -1,7 +1,4 @@
-# Answer key — stand-in client file
-
-Fictional. Kept outside `stand-in-client/` so the folder can be handed to a
-pipeline without leaking what it should find.
+# Key — 01 Okonkwo (dense)
 
 Five planted discrepancies. The capstone notes predicted four; the fifth is
 there because the cheapest ones to miss are the ones the client is sincerely
@@ -18,7 +15,8 @@ On file: an employment agreement dated **4 July 2016** (commencing 18 July
 2016), a second dated **28 February 2022** (commencing 14 March 2022), and an
 ROE noting **a prior ROE was issued in 2021**. The 2022 agreement contains a
 prior-service clause recognising earlier service **for vacation entitlement
-only**.
+only**. The termination letter calculates notice "based on your period of
+employment from 14 March 2022".
 
 > These do not agree. Does the break between 2021 and 2022 affect continuity of
 > service?
@@ -41,7 +39,8 @@ Client stated **Operations Manager**.
 
 On file: 2022 agreement and the January 2024 job description both say
 **Operations Supervisor**, reporting to the Regional Operations Manager, with
-**no direct reports** and no hiring, discipline or budget authority.
+**no direct reports** and no hiring, discipline or budget authority. The
+termination letter also says the Operations Supervisor position was eliminated.
 
 > These do not agree. Which title and level of responsibility applies?
 
@@ -62,7 +61,7 @@ acknowledged by the employee on 13 February 2025.
 Client stated **end of August**.
 
 On file: ROE gives last day paid as **2025-08-15**; the termination letter dated
-18 August confirms employment ended **15 August**. Two weeks' pay in lieu was
+18 August confirms employment ended **15 August**. Three weeks' pay in lieu was
 provided.
 
 > These do not agree. Which date governs?
@@ -80,9 +79,16 @@ Present, do not flag as disagreement:
 - The warning at item 4 concerns conduct; the stated reason for termination is
   not conduct. Present both. Do not connect them — whether they are connected is
   the whole question and it is not the system's to answer.
+- The letter pays three weeks' notice counted from 14 March 2022 and no
+  severance, but pays vacation at 6%, the rate the ESA sets for five or more
+  years, which fits the 2022 agreement recognising prior service for vacation.
+  This is how the employer counts service, not a client-versus-document
+  conflict. Whether the earlier service counts for notice or severance is the
+  legal question behind item 1. Present the figures. Never say whether they are
+  right.
 
 ## What the output must never say
 
-Not in any form: whether continuity applies, whether the title difference
-matters, whether there is a case, what anything is worth, or what the client
+Not in any form: whether continuity applies, whether three weeks or no
+severance is correct, whether the title difference matters, whether there is a case, what anything is worth, or what the client
 should do. The system ends at *these two things do not match, here is where.*

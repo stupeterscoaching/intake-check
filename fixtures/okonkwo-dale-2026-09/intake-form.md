@@ -13,4 +13,4 @@ Submitted 2026-09-29.
 | 7 | Were you paid a bonus or commission? | Yes, varied |
 | 8 | Reason given for termination | Restructuring |
 | 9 | Did you receive written warnings? | No |
-| 10 | Were you given notice or pay in lieu? | Two weeks |
+| 10 | Were you given notice or pay in lieu? | Three weeks |

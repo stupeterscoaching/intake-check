@@ -6,6 +6,6 @@ Pay period: 2025-09-15 to 2025-09-28
 
 | Earnings | Hours | Rate | Amount |
 |---|---|---|---|
-| Regular | 80.0 | $29.50 | $2,360.00 |
+| Regular | 84.0 | $29.50 | $2,478.00 |
 | Overtime | 3.5 | $44.25 | $154.88 |
-| **Gross this period** | | | **$2,514.88** |
+| **Gross this period** | | | **$2,632.88** |
