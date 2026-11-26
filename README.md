@@ -63,7 +63,9 @@ reading.
 
 Run end to end on two fixtures (2026-11-26) and scored against the keys:
 `whitfield-marguerite-2026-10` returns the one-line clean result;
-`okonkwo-dale-2026-09` finds all five planted discrepancies. The other three
+`okonkwo-dale-2026-09` finds all five planted discrepancies. The review gates
+were tested too: a stage stops at an unsigned gate and writes nothing. Full
+scoring is in [`docs/test-results.md`](docs/test-results.md). The other three
 fixtures have not been run. Several rules still carry `??` markers where a real
 practitioner needs to set them.
 
