@@ -26,7 +26,8 @@ Not yet run: `arteaga-tomas-2026-10`, `benoit-nadine-2026-10`,
   files were marked `Review: pending` to say so honestly. For Okonkwo, a person
   has since reviewed and signed both gates (2026-11-26, no changes), and stage
   05 was re-rendered from the signed files in a fresh session that could not
-  see the key. Whitfield's gates are still `Review: pending`.
+  see the key. Whitfield's gates were signed the same day (no changes) and its
+  page re-rendered the same way. It is still the single line.
 
 ## Whitfield: does it stay quiet?
 
