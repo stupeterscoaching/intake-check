@@ -110,7 +110,7 @@ every review gate.** There are two ways out:
 
 **2. The never-answer rule only binds a runner that reads it.** Today the
 question route (c) is the receiver's own Claude with the Drive connector, which is what
-DavidTMark used. **Nothing makes that session read `CLAUDE.md`, so the rule isn't
+the external tester used. **Nothing makes that session read `CLAUDE.md`, so the rule isn't
 enforced there.** That's the real argument for eventually building "Ask about this
 client" yourself: a sidebar that sends `shared/output-shape.md` as its system prompt.
 The rule lives in the instructions, and it travels with them only if the runner loads them.
@@ -134,8 +134,8 @@ that can stop and start.
      the stage, last modified, and a link to `05-pre-consult-flags.md`.
    - Add an Intake → Refresh menu.
    - Pin the Drive scope to `drive.readonly` so the board can't change client files.
-4. **Test it with DavidTMark (15 min).** Share the Sheet with him, view only. From the
-   Sheet alone, he should be able to answer: which client is at which stage, and what
+4. **Test it with the external tester (15 min).** Share the Sheet with them, view only. From the
+   Sheet alone, they should be able to answer: which client is at which stage, and what
    does Whitfield's flag list say?
 
 Stretch goals, fixtures only: an "Ask about this client" sidebar carrying

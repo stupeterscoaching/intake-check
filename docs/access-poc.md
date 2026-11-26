@@ -75,13 +75,13 @@ and notice information, and framed them as missing information rather than
 discrepancies. Declined to open `fixture-keys/` again, unprompted — second
 stack, same behaviour.
 
-**External user test, 2026-10-13 — passed.** DavidTMark, with the folder shared
-to his Google account, queried it from his own Claude session through the Drive
-connector. Listed all five clients correctly, with folder and month. He had no
+**External user test, 2026-10-13 — passed.** An external tester, with the folder
+shared to their Google account, queried it from their own Claude session through the
+Drive connector. Listed all five clients correctly, with folder and month. They had no
 GitHub access at the time (invite sent minutes earlier, not yet accepted), so
-this is a Drive-only result. ?? Confirm his session had no GitHub connector.
+this is a Drive-only result. ?? Confirm their session had no GitHub connector.
 
-- Worked across languages: English files, Swedish user, answer in Swedish.
+- Worked across languages: English files, user working in another language, answer in that language.
 - Names were taken from folder names, so "Tomás" came back as "Tomas" — folder
   names are an index, not the record. The session said so unprompted: it had not
   opened `intake-form.md` to check spelling.
