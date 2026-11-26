@@ -11,6 +11,10 @@ Write the page admin reads. No new facts, no conclusions.
 | Reference | `../../shared/output-shape.md` | Full file | The four-part flag format and the never-answer rule |
 | Reference | `references/page-format.md` | Full file | Order, headings, length |
 
+**Before reading anything else:** the first line of `04-flags.md` must be
+`Reviewed: …`. If it is missing or `pending`, stop — the client is at the flags
+gate (`../../shared/review-gates.md`).
+
 ## Process
 
 1. Write each kept flag in the four-part shape: what the client said, what is on

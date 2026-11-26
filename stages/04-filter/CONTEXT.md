@@ -12,17 +12,20 @@ Decide which differences are real. Record why each discard was discarded.
 ## Process
 
 1. For each difference, decide: **real**, **approximation**, **equivalent**, or
-   **unverifiable**.
+   **unverifiable**. Rows stage 03 marked `unmentioned` are discarded, never
+   kept — see `noise-rules.md`, "Unmentioned is not a discrepancy". An
+   `unverifiable` row that only claims something did not happen is discarded
+   as `absence claim` — see "A claim that something never happened".
 2. Write the reason for every decision. One sentence.
 3. Nothing is discarded silently. A discard with no stated reason is a bug.
-4. **[Checkpoint]** Present both lists — kept and discarded, with reasons.
-5. Run the audit. Revise before saving.
+4. Run the audit. Revise before saving.
+5. Save with `Review: pending` as the first line. Then stop.
 
 ## Checkpoints
 
 | After step | Agent presents | Human decides |
 |---|---|---|
-| 4 | Kept list and discarded list, each with reasons | Whether anything real was filtered out, or anything trivial survived. **This is the review that protects the lawyer's trust in the flags.** |
+| 5 | **Gate.** Kept list and discarded list, each with reasons | Whether anything real was filtered out, or anything trivial survived, and signs off per `../../shared/review-gates.md`. **This is the review that protects the lawyer's trust in the flags.** Stage 05 will not run until they do. |
 
 ## Audit
 

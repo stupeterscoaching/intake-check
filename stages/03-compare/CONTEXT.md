@@ -11,6 +11,10 @@ Put the claims next to the facts. List every difference. Filter nothing.
 | Stage 02 | `<client>/output/02-documents.md` | Full file | Which documents govern |
 | Reference | `references/comparison-rules.md` | Full file | How claims and facts are matched |
 
+**Before reading anything else:** the first line of `02-documents.md` must be
+`Reviewed: …`. If it is missing or `pending`, stop — the client is at the
+documents gate (`../../shared/review-gates.md`).
+
 ## Process
 
 1. Match each claim to the facts covering the same field.

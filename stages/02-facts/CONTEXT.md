@@ -27,13 +27,15 @@ you look for and what you find. The comparison happens in stage 03.
    present, but not governing.
 6. Mark illegible values as illegible, quoting what the source shows.
 7. Run the audit. Revise before saving.
-8. Save both artifacts to `<client>/output/`.
+8. Save both artifacts to `<client>/output/`. The first line of
+   `02-documents.md` is `Review: pending`. Then stop.
 
 ## Checkpoints
 
 | After step | Agent presents | Human decides |
 |---|---|---|
 | 3 | Document inventory with classifications | Whether anything is misclassified — an unsigned draft treated as governing poisons every later stage |
+| 8 | **Gate.** Both artifacts | Signs off `02-documents.md` per `../../shared/review-gates.md`. Stage 03 will not run until they do. |
 
 ## Audit
 

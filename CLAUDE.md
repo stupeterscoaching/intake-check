@@ -35,14 +35,15 @@ architecture: numbered stages run in order, each reads the previous stage's
 ## Triggers
 
 - **`setup`** — run `setup/questionnaire.md`, replace placeholders, confirm none remain.
-- **`status`** — for each client folder, list `<client>/output/` and show which stages have run. A client's stage is the first stage whose output file is missing.
-- **`run <path>`** — start at stage 01 against the client folder at that path.
+- **`status`** — for each client folder, list `<client>/output/` and show which stages have run. A client's stage is the first stage whose output file is missing — unless `02-documents.md` or `04-flags.md` starts `Review: pending`, in which case the client is at that gate.
+- **`run <path>`** — start at stage 01 against the client folder at that path. Stop at each review gate.
 
 ## State is the files
 
-There is no tracker and no status field. **Which outputs exist is the state.**
-If `<client>/output/03-differences.md` exists and `04-flags.md` does not, that
-client is sitting at the filter gate.
+There is no tracker and no status field. **Which outputs exist is the state**,
+plus the first line of the two gated artifacts. If `04-flags.md` exists and
+starts `Review: pending`, that client is sitting at the flags gate. See
+`shared/review-gates.md` — no stage passes a gate on its own.
 
 This means anyone with read access to the client folder can answer where things
 stand by listing a directory. Nothing has to be kept up to date by hand.

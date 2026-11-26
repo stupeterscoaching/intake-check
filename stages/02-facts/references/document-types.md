@@ -1,6 +1,6 @@
 # Document types
 
-What each type is, and what to read from it. Jurisdiction: {{JURISDICTION}}.
+What each type is, and what to read from it. Jurisdiction: Ontario.
 
 | Type | Read from it | Watch for |
 |---|---|---|

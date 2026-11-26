@@ -13,8 +13,10 @@ Intake notes and client documents in, a list of facts that disagree out.
 | Write the page admin reads | `stages/05-render/CONTEXT.md` | The flag list |
 
 Stages run in order. Each reads the previous stage's artifact from the
-**client's** `output/` folder and writes its own there. A human reviews
-and may edit any output before the next stage runs.
+**client's** `output/` folder and writes its own there. A human may edit any
+output before the next stage runs, and **must** sign off two of them: the
+document inventory (before 03) and the flags (before 05). See
+`shared/review-gates.md`.
 
 ## Shared resources
 
@@ -22,6 +24,7 @@ and may edit any output before the next stage runs.
 |---|---|---|
 | Output shape | `shared/output-shape.md` | The flag format and the never-answer rule |
 | Source reliability | `shared/source-reliability.md` | What to do when a source is unclear or not authoritative |
+| Review gates | `shared/review-gates.md` | Where a person signs off, and how it is recorded |
 | Test fixtures | `fixtures/` | Five fictional client files, different shapes |
 
 ## Entry
