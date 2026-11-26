@@ -22,8 +22,11 @@ intake notes + form + docs/
   a short list of facts that disagree
 ```
 
-Each stage has a review gate. Each `output/` is a plain markdown file you can
-open, edit and hand to the next stage.
+Every artifact is a plain markdown file you can open, edit and hand to the next
+stage. Two are **hard gates**: a person signs off the document inventory before
+the comparison runs, and the kept/discarded flags before the page is written.
+The sign-off is the first line of the file, so the folder still shows where
+each client stands. See `shared/review-gates.md`.
 
 ## The rule
 
@@ -58,8 +61,11 @@ reading.
 
 ## Status
 
-Scaffolded, not yet run. Contracts and reference rules are drafted; several
-carry `??` markers where a real practitioner needs to set the rule.
+Run end to end on two fixtures (2026-11-26) and scored against the keys:
+`whitfield-marguerite-2026-10` returns the one-line clean result;
+`okonkwo-dale-2026-09` finds all five planted discrepancies. The other three
+fixtures have not been run. Several rules still carry `??` markers where a real
+practitioner needs to set them.
 
 Nothing real is in this repo. Whether real client material may be processed at
 all is unresolved and is the firm's decision.
