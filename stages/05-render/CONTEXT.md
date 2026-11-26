@@ -32,9 +32,9 @@ gate (`../../shared/review-gates.md`).
 
 | Check | Pass condition |
 |---|---|
-| No new facts | Every statement traces to a stage 04 row or a stage 02 citation |
+| No new facts | Every statement traces to a stage 04 row (worded from 03) or a stage 02 citation |
 | Never-answer | No sentence says what a discrepancy means, whether there is a case, or connects two facts into a theory |
-| Every flag asks | Each flag ends in a question addressed to a person |
+| Every flag asks | Each flag ends in a question to the client, for admin to ask. None asks which fact governs. |
 | Citations survive | Every fact still shows its file and line |
 | One glance | A flag can be verified by opening one cited document |
 | Empty is allowed | A clean file produces a one-line statement, not invented content |

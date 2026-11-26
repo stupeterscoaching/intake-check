@@ -81,18 +81,20 @@ Key: [`okonkwo-dale-2026-09.md`](../fixture-keys/okonkwo-dale-2026-09.md)
   rule to bring in related facts the client never raised.
 - **Two extra could-not-check items** not in the key: the bonus amount
   ("moved around") and "came back to the same team".
-- **Who the questions are for.** The key's questions are addressed to the
+- **Who the questions are for.** The key's questions were addressed to the
   lawyer, e.g. "Does the break affect continuity of service?". The page's
   questions are for admin to put to the client, e.g. "Dale: when did you first
   start working at Northwind, and from what date are you counting the 4
-  years?". **Open:** which audience is right is
-  waiting on the receiver. Whichever it is, the key or the spec's worked
-  example will be changed to match.
-- **The key breaks two of the workspace's own rules.** Its compensation
-  question adds base and bonus ("≈ $69,200"), which is arithmetic across
-  documents. Its warnings question asks whether the warning "bears on the
+  years?". **Resolved 2026-11-26: the client, via admin.** A question that
+  asks which fact governs asks for the lawyer's judgment. The rule is now
+  written into [`output-shape.md`](../shared/output-shape.md) and the stage 05
+  audit, and the keys' questions were rewritten to match. The key was changed
+  after this run, not before it.
+- **The key broke two of the workspace's own rules.** Its compensation
+  question added base and bonus ("≈ $69,200"), which is arithmetic across
+  documents. Its warnings question asked whether the warning "bears on the
   reason given for termination", which connects the two. The run did neither.
-  **Open:** the key is to be corrected.
+  Both questions were rewritten in the same change.
 
 ## Gate test
 

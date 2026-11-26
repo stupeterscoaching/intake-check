@@ -3,7 +3,8 @@
 Five planted discrepancies. The capstone notes predicted four; the fifth is
 there because the cheapest ones to miss are the ones the client is sincerely
 wrong about. Each is written in the agreed output shape: **state what is on file, name the
-disagreement, ask the question, never answer it.**
+disagreement, ask the client the question, never answer it.** The questions
+below show the shape; a run's wording may differ.
 
 ---
 
@@ -18,8 +19,8 @@ prior-service clause recognising earlier service **for vacation entitlement
 only**. The termination letter calculates notice "based on your period of
 employment from 14 March 2022".
 
-> These do not agree. Does the break between 2021 and 2022 affect continuity of
-> service?
+> These do not agree. When did you first start working at Northwind, and from
+> what date are you counting the 4 years?
 
 ### 2. Compensation
 
@@ -30,8 +31,7 @@ bonus of up to 10%, expressly not part of base. August 2025 pay statement shows
 annualised base **$64,000** and a bonus of **$5,200** paid 2025-03-14, for gross
 YTD earnings of **$44,584.64**.
 
-> These do not agree. Base plus the bonus actually paid is approximately
-> $69,200. Which figure applies?
+> These do not agree. Where does the $72,000 figure come from?
 
 ### 3. Position
 
@@ -42,7 +42,8 @@ On file: 2022 agreement and the January 2024 job description both say
 **no direct reports** and no hiring, discipline or budget authority. The
 termination letter also says the Operations Supervisor position was eliminated.
 
-> These do not agree. Which title and level of responsibility applies?
+> These do not agree. What was your job title, and did anyone report to you
+> directly?
 
 ### 4. Written warnings
 
@@ -53,8 +54,8 @@ On file: a **first written warning dated 11 February 2025** regarding shift
 schedules published without approval on three dates in January 2025, signed as
 acknowledged by the employee on 13 February 2025.
 
-> These do not agree. Was the warning received, and does it bear on the reason
-> given for termination?
+> These do not agree. Do you recall receiving and acknowledging this warning in
+> February 2025?
 
 ### 5. End date
 
@@ -64,7 +65,8 @@ On file: ROE gives last day paid as **2025-08-15**; the termination letter dated
 18 August confirms employment ended **15 August**. Three weeks' pay in lieu was
 provided.
 
-> These do not agree. Which date governs?
+> These do not agree. What was your last day of work, and what is "end of
+> August" based on?
 
 ---
 

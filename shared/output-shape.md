@@ -5,7 +5,10 @@ Every flag the system produces has the same four parts, in this order.
 1. **What the client said**, quoted or closely paraphrased, with the source.
 2. **What is on file**, with a citation for each fact — file and line.
 3. **The statement that they disagree.** Plain, no hedging.
-4. **A question**, addressed to a person.
+4. **A question for the client**, for admin to put to them. It asks the client
+   to explain or confirm what they said. It never asks which fact governs or
+   what one means: that is the lawyer's question, and the page exists so the
+   lawyer starts the consult with the facts already straight.
 
 ## Worked example
 
@@ -18,8 +21,8 @@ Every flag the system produces has the same four parts, in this order.
 > commencing 14 March 2022 (`docs/employment-contract-2022.md:9`), and an ROE
 > noting a prior ROE was issued in 2021 (`docs/record-of-employment.md:14`).
 >
-> These do not agree. Does the break between 2021 and 2022 affect continuity of
-> service?
+> These do not agree. When did you first start working at Northwind, and from
+> what date are you counting the 4 years?
 
 ## The never-answer rule
 
@@ -36,6 +39,10 @@ Stating that a conduct warning exists and that the stated reason for termination
 was restructuring is correct. Suggesting the first explains the second is not,
 **however obvious the connection looks.** Whether they are connected is the
 entire question, and it is not ours.
+
+The same goes for the question. "Which date governs?" or "Does the break
+affect continuity?" asks for the lawyer's judgment. "Where does the $72,000
+come from?" asks the client for a fact.
 
 ## Tone
 

@@ -15,7 +15,7 @@ blank signature block.
 
 > These do not agree. The client's figure matches an unsigned draft; the
 > executed agreement, the payroll record and the termination letter all say
-> $29.50. Which governs?
+> $29.50. Where does the $31.00 figure come from?
 
 ---
 

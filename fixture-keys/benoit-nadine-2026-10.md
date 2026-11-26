@@ -12,7 +12,7 @@ termination pay row (2 × $1,053.85 = $2,107.70), and benefits ending
 12 September 2025, "the end of your two-week statutory notice period". That is
 one flag, not three.
 
-> These do not agree. Which period applies?
+> These do not agree. Where does "a month" of notice come from?
 
 ---
 
