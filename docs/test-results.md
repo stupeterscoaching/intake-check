@@ -22,9 +22,11 @@ Not yet run: `arteaga-tomas-2026-10`, `benoit-nadine-2026-10`,
 - **Keys were opened only after stage 05 was written**, and never by a stage.
   They live in [`fixture-keys/`](../fixture-keys/), outside the fixtures.
 - **Run before the review gates existed.** No person signed off stage 02 or
-  04 during these runs. The gates were added afterwards, and the gated files
-  were marked `Review: pending` to say so honestly. **Open:** a person signs
-  off both gates, and stage 05 is re-rendered from the signed files.
+  04 during the first runs. The gates were added afterwards, and the gated
+  files were marked `Review: pending` to say so honestly. For Okonkwo, a person
+  has since reviewed and signed both gates (2026-11-26, no changes), and stage
+  05 was re-rendered from the signed files in a fresh session that could not
+  see the key. Whitfield's gates are still `Review: pending`.
 
 ## Whitfield: does it stay quiet?
 
@@ -60,7 +62,7 @@ Key: [`okonkwo-dale-2026-09.md`](../fixture-keys/okonkwo-dale-2026-09.md)
 |---|---|---|
 | 1. Length of service: "4 years" against agreements from 2016 and 2022 and a 2021 prior ROE | ✅ | "Start date and length of service" |
 | 2. Compensation: "$72,000" against $64,000 base | ✅ | "Compensation" |
-| 3. Position: Operations Manager against Operations Supervisor, no direct reports | ✅ | "Position" |
+| 3. Position: Operations Manager against Operations Supervisor, no direct reports | ✅ | "Position and authority" |
 | 4. Written warnings: "No" against an acknowledged February 2025 warning | ✅ | "Written warnings" |
 | 5. End date: "end of August" against 15 August 2025 | ✅ | "End date" |
 
@@ -81,8 +83,9 @@ Key: [`okonkwo-dale-2026-09.md`](../fixture-keys/okonkwo-dale-2026-09.md)
   ("moved around") and "came back to the same team".
 - **Who the questions are for.** The key's questions are addressed to the
   lawyer, e.g. "Does the break affect continuity of service?". The page's
-  questions are for admin to put to the client, e.g. "When did the first period
-  of employment start and end?". **Open:** which audience is right is
+  questions are for admin to put to the client, e.g. "Dale: when did you first
+  start working at Northwind, and from what date are you counting the 4
+  years?". **Open:** which audience is right is
   waiting on the receiver. Whichever it is, the key or the spec's worked
   example will be changed to match.
 - **The key breaks two of the workspace's own rules.** Its compensation
@@ -106,4 +109,18 @@ Checksums of all six output files were identical before and after. Both
 agents also noticed, unprompted, that the existing downstream files were
 older than the gated ones.
 
-Not tested yet: that a stage *does* run once a person signs the gate.
+After a person signed both gates, stage 05 was run again and did proceed
+(line 1 of `04-flags.md` quoted in its report). Stage 03 was not re-run,
+because no classification changed at the documents gate.
+
+## Found by the re-render
+
+The first re-render after sign-off came back with no citations for what the
+client said. Stage 05 was given stage 04's decisions, which carry no
+client-side line numbers, and no input that did. The old page had them only
+because it was rendered in a session that had seen stage 03. Stage 05 now
+reads the client's words, the on-file wording and their citations from
+`03-differences.md`. The same run found that stage 05 had no path to the field
+priority list, and that the worked example in
+[`output-shape.md`](../shared/output-shape.md) cited the wrong lines. All three
+were fixed before the page that is now in the folder was rendered.

@@ -1,4 +1,4 @@
-Review: pending
+Reviewed: Stu Peters, 2026-11-26
 
 # 02 — Document inventory: okonkwo-dale-2026-09
 

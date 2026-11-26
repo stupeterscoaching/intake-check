@@ -11,11 +11,11 @@ Every flag the system produces has the same four parts, in this order.
 
 > **Length of service**
 >
-> Client stated 4 years, start date March 2022 (`intake-form.md:7`).
+> Client stated 4 years, start date March 2022 (`intake-form.md:9`, `:10`).
 >
 > On file: an employment agreement dated 4 July 2016 commencing 18 July 2016
-> (`docs/employment-contract-2016.md:7`), a second dated 28 February 2022
-> commencing 14 March 2022 (`docs/employment-contract-2022.md:7`), and an ROE
+> (`docs/employment-contract-2016.md:9`), a second dated 28 February 2022
+> commencing 14 March 2022 (`docs/employment-contract-2022.md:9`), and an ROE
 > noting a prior ROE was issued in 2021 (`docs/record-of-employment.md:14`).
 >
 > These do not agree. Does the break between 2021 and 2022 affect continuity of

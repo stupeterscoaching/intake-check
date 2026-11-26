@@ -1,68 +1,54 @@
-# Dale Okonkwo — pre-consult flags
+# Pre-consult flags: Dale Okonkwo
 
 5 flags · 2 could not be checked · 0 document problems
 
-## Position
+## Flags
 
-Client stated "Operations Manager" and that he "managed a team"
-(`intake-form.md:8`, `intake-notes.md:7`).
+### Position and authority
 
-On file: the 2022 agreement names the position Operations Supervisor
-(`docs/employment-contract-2022.md:7`); the job description lists direct
-reports as "None" (`docs/job-description.md:6`) and no hiring, discipline or
-budget authority (`docs/job-description.md:19`).
+Client stated "Operations Manager" and that he "managed a team" (`intake-form.md:8`; `intake-notes.md:7`).
 
-These do not agree. What title and team responsibilities did the client hold
-in practice?
+On file: the title Operations Supervisor (`docs/employment-contract-2022.md:7`; `docs/job-description.md:1`; `docs/termination-letter.md:20`–`21`; `docs/written-warning-2025-02.md:6`), and a job description for that role stating direct reports "None. Coordinates shift staff on a day-to-day basis." (`docs/job-description.md:6`) and that the role "does not hold hiring, discipline or budget authority" (`docs/job-description.md:19`).
 
-## Start date and length of service
+These do not agree. Dale: what was your job title, and did anyone report to you directly?
 
-Client stated 4 years, starting March 2022 (`intake-form.md:9`,
-`intake-form.md:10`), and "a year out, family stuff" a while back
-(`intake-notes.md:13`).
+### Start date and length of service
 
-On file: an agreement commencing 18 July 2016
-(`docs/employment-contract-2016.md:9`), a second commencing 14 March 2022
-(`docs/employment-contract-2022.md:9`), and an ROE noting a prior ROE was issued
-in 2021 (`docs/record-of-employment.md:14`).
+Client stated 4 years, start date March 2022 (`intake-form.md:9`, `:10`; "four years", `intake-notes.md:6`).
 
-These do not agree. When did the first period of employment start and end?
+On file: an employment agreement commencing 18 July 2016 (`docs/employment-contract-2016.md:9`), a second commencing 14 March 2022 (`docs/employment-contract-2022.md:9`), and an ROE noting "a prior ROE was issued for this employee in 2021" (`docs/record-of-employment.md:14`).
 
-## End date
+These do not agree. Dale: when did you first start working at Northwind, and from what date are you counting the 4 years?
 
-Client stated "End of August 2025" (`intake-form.md:11`).
+### End date
 
-On file: the termination letter gives a Termination Date of 15 August 2025
-(`docs/termination-letter.md:20`); the ROE shows last day paid 2025-08-15
-(`docs/record-of-employment.md:9`).
+Client stated "End of August 2025" (`intake-form.md:11`; "end of August", `intake-notes.md:10`).
 
-These do not agree. Which date does the client mean by end of August?
+On file: a Termination Date of 15 August 2025 (`docs/termination-letter.md:20`) and last day for which paid 2025-08-15 (`docs/record-of-employment.md:9`).
 
-## Compensation
+These do not agree. Dale: what was your last day of employment, and what is "end of August" based on?
 
-Client stated $72,000 (`intake-form.md:12`).
+### Compensation
 
-On file: base salary $64,000 per annum (`docs/employment-contract-2022.md:10`);
-pay stub annualised base $64,000.00 (`docs/pay-stub-2025-08.md:19`).
+Client stated "$72,000" (`intake-form.md:12`; `intake-notes.md:9`).
 
-These do not agree. What does the client's $72,000 figure refer to?
+On file: base salary of $64,000 per annum (`docs/employment-contract-2022.md:10`) and annualised base $64,000.00 (`docs/pay-stub-2025-08.md:19`).
 
-## Written warnings
+These do not agree. Dale: where does the $72,000 figure come from, and do you have a document that shows it?
 
-Client answered "No" to written warnings (`intake-form.md:15`) and said "no
-warnings … that he knows of" (`intake-notes.md:12`).
+### Written warnings
 
-On file: a first written warning dated 2025-02-11
-(`docs/written-warning-2025-02.md:3`), acknowledged by the employee on
-2025-02-13 (`docs/written-warning-2025-02.md:29`).
+Client answered "No" to written warnings (`intake-form.md:15`) and said "No warnings … that he knows of" (`intake-notes.md:12`).
 
-These do not agree. Does the client recall receiving the February 2025 warning?
+On file: a first written warning dated 2025-02-11 (`docs/written-warning-2025-02.md:3`), acknowledged by employee 2025-02-13 (`docs/written-warning-2025-02.md:29`).
+
+These do not agree. Dale: do you recall receiving this warning and acknowledging it on 13 February 2025?
 
 ## Could not be checked
 
-- **Bonus amount.** Client said the bonus "moved around" (`intake-notes.md:9`).
-  One payment is on file (`docs/pay-stub-2025-08.md:16`). Bonus history for
-  each year would settle it.
-- **Return after the break.** Client said he "came back to the same team"
-  (`intake-notes.md:13`). No document covers his team. A role record for
-  2016–2021 would settle it.
+- **Bonus amount.** Client said the bonus "moved around" and "varied" (`intake-notes.md:9`; `intake-form.md:13`). One payment is on file: $5,200.00 paid 2025-03-14 (`docs/pay-stub-2025-08.md:16`). Would be settled by: bonus history for each year.
+- **Return after the break.** Client said he "came back to the same team" (`intake-notes.md:13`–`14`). No document on file covers his team. Would be settled by: a role or team record for 2016–2021.
+
+## Document problems
+
+None.

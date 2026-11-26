@@ -7,7 +7,8 @@ Written for someone acting on it in the next hour, probably on a phone.
 1. **One line of status.** How many flags, how many unverifiable, how many
    document problems. Nothing else.
 2. **Flags**, most material first. ?? Materiality order needs a receiver's view;
-   until then, order by field priority from `01-claims/references/claim-rules.md`.
+   until then, order by field priority (stage 01's `claim-rules.md`, "Fields to always look
+   for").
 3. **Could not be checked** — claim, and the document that would settle it.
 4. **Document problems** — drafts, misfiled documents, illegible sources.
 

@@ -7,7 +7,9 @@ Write the page admin reads. No new facts, no conclusions.
 | Source | File | Scope | Why |
 |---|---|---|---|
 | Stage 04 | `<client>/output/04-flags.md` | Kept list, and the unverifiable list | What goes on the page |
+| Stage 03 | `<client>/output/03-differences.md` | Claim, Fact and Sources columns, for the rows 04 kept or marked unverifiable | The client's words, the on-file wording, and their citations. 04 carries decisions, not wording. |
 | Stage 02 | `<client>/output/02-documents.md` | Non-authoritative and misfiled rows | Document problems are reported too |
+| Reference | `../01-claims/references/claim-rules.md` | "Fields to always look for" | Flag order |
 | Reference | `../../shared/output-shape.md` | Full file | The four-part flag format and the never-answer rule |
 | Reference | `references/page-format.md` | Full file | Order, headings, length |
 
